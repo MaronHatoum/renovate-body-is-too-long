@@ -7,6 +7,10 @@
     {
       "groupName": "all deps",
       "matchPaths": ["+(package.json)"]
+    },
+    {
+      "packagePatterns": ["esbuild"],
+      "allowedVersions": "<0.14.26"
     }
   ]
 }
