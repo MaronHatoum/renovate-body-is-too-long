@@ -11,6 +11,10 @@
     {
       "packagePatterns": ["esbuild"],
       "allowedVersions": "<0.14.26"
+    },
+	{
+      "packagePatterns": ["esbuild"],
+      "allowedVersions": "<0.14.27"
     }
   ]
 }
