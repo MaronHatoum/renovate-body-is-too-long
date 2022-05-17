@@ -1,0 +1,17 @@
+{
+  "extends": ["github>whitesource/merge-confidence:beta",":disableRateLimiting"],
+  
+  "major": {
+    "enabled": false
+  },
+  "packageRules": [
+    {
+      "groupName": "all deps",
+      "matchPaths": ["+(package.json)"]
+    },
+    {
+      "packagePatterns": ["esbuild"],
+      "allowedVersions": "<0.14.26"
+    }
+  ]
+}
